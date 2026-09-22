@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\TestPyreg2exe_Mixed]
+"UserSetting"="user-value"
+"UserPath"="%CD%\\user"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\TestPyreg2exe_Mixed]
+"SystemSetting"="system-value"
+"InstallDir"="%CD%"
