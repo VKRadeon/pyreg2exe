@@ -148,11 +148,15 @@ supported.
 
 ## Files
 
-| File            | Purpose                                              |
-|-----------------|------------------------------------------------------|
-| `pyreg2exe.py`  | The build tool. Takes a `.reg` and produces a `.exe`.|
-| `regapply.py`   | The template (loader). Compiled to `regapply.exe`.   |
-| `regfile.py`    | Parser and applier. Shared by both.                  |
+| File                | Purpose                                              |
+|---------------------|------------------------------------------------------|
+| `pyreg2exe.py`      | The build tool. Takes a `.reg` and produces a `.exe`.|
+| `regapply.py`       | The template (loader). Compiled to `regapply.exe`.   |
+| `regfile.py`        | Parser and applier. Shared by both.                  |
+| `examples/cu.reg`   | HKCU-only patch (no UAC prompt).                     |
+| `examples/lm.reg`   | HKLM-only patch (UAC prompt).                        |
+| `examples/mixed.reg`| Mixed. HKCU applied first, then HKLM via UAC.        |
+
 
 ---
 
